@@ -1,0 +1,47 @@
+body {
+  background: black;
+}
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+  display: grid;
+  justify-content: center;
+  border: none;
+  align-content: center;
+  padding-top: 150px;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: minmax(70px, auto) repeat(6, 70px);
+  gap: 15px;
+  font-size: 30px;
+}
+.calculator {
+  display: inline-block;
+}
+.box {
+  width: 330px;
+  height: 500px;
+  background-color: rgb(0, 0, 0);
+  padding-left: 48px;
+}
+button {
+  background-color: #878787;
+  font-size: 30px;
+  width: 65px;
+  justify-content: center;
+  height: 61px;
+  align-content: center;
+  border-radius: 48px;
+  border: none;
+}
+.fix {
+  height: 54px;
+  width: 270px;
+  background-color: #878787;
+  padding-right: 4px;
+  border-radius: 20px;
+  font-size: 35px;
+  border: none;
+  margin-bottom: 24px;
+}
